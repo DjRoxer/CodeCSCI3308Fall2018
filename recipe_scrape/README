@@ -1,0 +1,9 @@
+recipe scraping and push to heroku postgres database
+by SHANE!
+
+recipeScrape.py - get_urls() gathers all the urls of drink recipes from an a-z drink blog
+                 get_details() gathers ingredients from the list of urls and puts them in xlsx spreadsheet
+
+fixIngredients.py - fixes various formatting issues in the xlsx sheet.
+
+fillDB.py - inserts the drink data from xlsx spreadsheet into postgresql table on heroku app tipsybuffs
