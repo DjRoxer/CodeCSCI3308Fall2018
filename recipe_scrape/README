@@ -6,4 +6,6 @@ recipeScrape.py - get_urls() gathers all the urls of drink recipes from an a-z d
 
 fixIngredients.py - fixes various formatting issues in the xlsx sheet.
 
-fillDB.py - inserts the drink data from xlsx spreadsheet into postgresql table on heroku app tipsybuffs
+fillDB.py - inserts the drink data from xlsx spreadsheet into postgresql table on heroku app tipsybuffs.
+
+getInstructions.py - scrapes urls for drink instructions and adds them into table 'drinks' on heroku app tipsybuffs.
